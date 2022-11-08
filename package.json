@@ -1,0 +1,24 @@
+{
+  "name": "sentura_2nd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
+  },
+  "author": "sithum",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.6.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.3"
+  }
+}
